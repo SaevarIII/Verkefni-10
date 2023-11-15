@@ -6,14 +6,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>jelló</p>
+        <p>jelló, þetta er react!</p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="API.html"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Lærðu React
+          Ýttu hér fyrir API hlutann
         </a>
       </header>
     </div>
