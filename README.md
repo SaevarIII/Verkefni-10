@@ -11,3 +11,5 @@ Kíkti á https://vefforritun.github.io/vef1-2023/namsefni/40.html5/ til þess a
 Valdi Canvas API
 
 Fór á síðuna https://eloquentjavascript.net/17_canvas.html til þess að læra að kóða súlurit
+
+- API hlutinn af verkefninu er inn á public/API.html
