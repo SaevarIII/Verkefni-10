@@ -4,24 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <!-- Include Chart.js library -->
+
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   </head>
   <body>
-    <!-- Create a canvas element for the chart -->
     <canvas id="myChart" width="400" height="200"></canvas>
     <script>
       const results = [
-        { name: "Satisfied", count: 1043, color: "lightblue" },
-        { name: "Neutral", count: 563, color: "lightgreen" },
-        { name: "Unsatisfied", count: 510, color: "pink" },
-        { name: "No comment", count: 175, color: "silver" },
+        { name: "Ánægður", count: 1043, color: "lightblue" },
+        { name: "Alveg sama", count: 563, color: "lightgreen" },
+        { name: ">:(", count: 510, color: "pink" },
+        { name: "Engin skoðun", count: 175, color: "silver" },
       ];
 
-      // Get the canvas element and context
       const canvas = document.getElementById("myChart").getContext("2d");
 
-      // Create a data object for the chart
       const data = {
         labels: results.map((result) => result.name),
         datasets: [
@@ -32,7 +29,6 @@
         ],
       };
 
-      // Create a bar chart
       const myChart = new Chart(canvas, {
         type: "bar",
         data: data,
